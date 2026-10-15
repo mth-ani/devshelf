@@ -52,7 +52,8 @@ builder.Services.AddCors(options =>
                   "http://localhost:5173",
                   "http://localhost:5174",
                   "http://localhost:5175",
-                  "http://localhost:3000"
+                  "http://localhost:3000",
+                  "https://devshelf-gamma.vercel.app"
               )
               .AllowAnyMethod()
               .AllowAnyHeader();
